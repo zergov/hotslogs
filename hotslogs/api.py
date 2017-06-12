@@ -31,4 +31,5 @@ def get_match_history(player_id):
 
     :param player_id: the hotslogs unique id of the player
     """
-    raise NotImplementedError()
+    _ = 'https://www.hotslogs.com/Player/MatchHistory?PlayerID=%s' % player_id
+    return requests.get(_).text
