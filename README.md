@@ -1,0 +1,2 @@
+# hotslogs
+hotslogs python API
